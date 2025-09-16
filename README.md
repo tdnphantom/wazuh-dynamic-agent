@@ -22,8 +22,8 @@ Replace the placeholder value with the actual IP address or Fully Qualified Doma
 #### Bash (.sh):
 `WAZUH_MANAGER_IP="<PUT MANAGER FQDN/IP HERE>"`
 
-### 2. Verify the Wazuh Agent VersionThese scripts are configured to download Wazuh Agent v4.7.5 
-*** for different version, you must update the agent URL/filename variables in the script
+### 2. Verify the Wazuh Agent Version
+These scripts are configured to download Wazuh Agent v4.7.5, for different version, you must update the agent URL/filename variables in the script
 
 You can find the latest package URLs in the official Wazuh Packages List
 ``https://documentation.wazuh.com/current/installation-guide/packages-list.html``
