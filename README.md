@@ -1,10 +1,10 @@
 # Wazuh Dynamic Agent Deployment Scripts
 A collection of simple yet effective scripts to automate the deployment of the Wazuh agent on multiple operating systems
-These scripts automatically detect the machine's hostname and use it as the WAZUH_AGENT_NAME during installation, making them ideal for bulk deployments
+These scripts automatically detect the machine's hostname and use it as the `WAZUH_AGENT_NAME` during installation, making them ideal for bulk deployments
 
 # Features
 Dynamic Hostname: Automatically registers the agent with the computer's hostname
-Cross-Platform: Provides scripts for:Windows (PowerShell)Debian-based Linux (e.g., Ubuntu, Debian)RPM-based Linux (e.g., CentOS, RHEL, Fedora)
+Cross-Platform: Provides scripts for Windows (PowerShell), Debian-based Linux (e.g., Ubuntu, Debian), RPM-based Linux (e.g., CentOS, RHEL, Fedora)
 Unattended Installation: Runs silently without requiring user input
 Automated Service Start: Enables and starts the Wazuh agent service right after installation
 User-Friendly: Includes a simple "loading" animation for better feedback during execution
@@ -12,7 +12,8 @@ User-Friendly: Includes a simple "loading" animation for better feedback during 
 # Configuration
 Before running any scripts, you must edit the file for your target OS to set two important variables.
 
-### 1. Set Your Wazuh Manager IP/FQDNOpen the script and find the `WAZUH_MANAGER_IP` variable. 
+### 1. Set Your Wazuh Manager IP/FQDN
+Open the script and find the `WAZUH_MANAGER_IP` variable,
 Replace the placeholder value with the actual IP address or Fully Qualified Domain Name (FQDN) of your Wazuh manager.
 
 #### PowerShell (.ps1):
